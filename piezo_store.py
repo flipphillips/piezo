@@ -16,5 +16,6 @@ start = utime.ticks_ms()
 while utime.ticks_diff(utime.ticks_ms(),start) < 1000:
     l.append(cooked_pin.read_u16())
 
-print(len(l))
+#print(len(l))
 
+print(l)
